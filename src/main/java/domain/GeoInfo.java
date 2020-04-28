@@ -1,4 +1,4 @@
-package ru.netology;
+package domain;
 
 public class GeoInfo {
     private String type;

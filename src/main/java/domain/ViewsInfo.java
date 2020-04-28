@@ -1,4 +1,4 @@
-package ru.netology;
+package domain;
 
 public class ViewsInfo {
     private int count;

@@ -1,4 +1,4 @@
-package ru.netology;
+package domain;
 
 public class ReportsInfo {
     private int count;
