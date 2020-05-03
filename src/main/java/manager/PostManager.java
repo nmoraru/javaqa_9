@@ -4,17 +4,15 @@ import domain.Post;
 
 public class PostManager {
     private Post[ ] posts;
-    public Post[ ] getPostsForFeed() {
-// TODO: add logic
-        return null;
-    }
 
-    public Post[] search(posts) {
+
+    public Post[] search(int ownerId, String domain, String query, int ownersOnly, int count, int offset,
+                         int extended, String fields) {
         return null;
         // TODO: add logic
     }
 
-    public void delete(posts) {
+    public void delete(int ownerId, int postId) {
         // TODO: add logic
     }
 }
