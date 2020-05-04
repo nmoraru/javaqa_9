@@ -8,7 +8,7 @@ public class Post {
     private int datePost;
     private int replyOwnerId;
     private int replyPostId;
-    private int lowerCamelCase;
+    private int friendsOnly;
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
     private ReportsInfo reportsInfo;
@@ -80,12 +80,12 @@ public class Post {
         this.replyPostId = replyPostId;
     }
 
-    public int getLowerCamelCase() {
-        return lowerCamelCase;
+    public int getFriendsOnly() {
+        return friendsOnly;
     }
 
-    public void setLowerCamelCase(int lowerCamelCase) {
-        this.lowerCamelCase = lowerCamelCase;
+    public void setFriendsOnly(int friendsOnly) {
+        this.friendsOnly = friendsOnly;
     }
 
     public CommentsInfo getCommentsInfo() {
