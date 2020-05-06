@@ -3,7 +3,7 @@ package domain.attachment;
 public class Event {
     private int id;
     private int time;
-    private int member_status;
+    private int memberStatus;
     private boolean isFavorite;
     private String address;
     private String text;
@@ -26,12 +26,12 @@ public class Event {
         this.time = time;
     }
 
-    public int getMember_status() {
-        return member_status;
+    public int getMemberStatus() {
+        return memberStatus;
     }
 
-    public void setMember_status(int member_status) {
-        this.member_status = member_status;
+    public void setMemberStatus(int memberStatus) {
+        this.memberStatus = memberStatus;
     }
 
     public boolean isFavorite() {
